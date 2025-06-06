@@ -8,11 +8,14 @@
   <body onload = "showRound();">
     <div id="scoreBox">Score: loading</div>
     <div id="statsBox">Loading ...</div>
-    <img src="rock.jpg" width="200px" width="200px" button onclick="cpuTurn('r');"></button>
-    <h3>ROCK</h3>
-    <button onclick="cpuTurn('p');">Paper</button>
-    <button onclick="cpuTurn('s');">Scissors</button>
+   <div id="pics"> <img src="rock.jpg" button onclick="cpuTurn('r');"></button>
+    <h3 class="rock">ROCK</h3>
+    <img src="dolla.png" button onclick="cpuTurn('p');"></button>
+    <h3 class="green">PAPER</h3>
+    <img src ="scissors.jpg" button onclick="cpuTurn('s');"></button>
+    <h3 class="cut">SCISSORS</h3>
     <div id="result">Choose a move</div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

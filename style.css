@@ -18,3 +18,31 @@ body {
   text-align:center;
   width:10em;
 }
+h3{
+  font-size:50px;
+  font-style: italic;
+  
+}
+.rock{
+  color:gray;
+}
+.green{
+  color:#659974;
+}
+img{
+  width:250px;
+  height:220px;
+  border-radius:20px;
+  
+}
+.cut{
+  color:silver;
+}
+img:hover{
+  opacity:0.3;
+  transition-duration: 0.5s;
+
+}
+#pics{
+  
+}
